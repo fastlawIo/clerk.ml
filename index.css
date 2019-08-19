@@ -4,9 +4,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
@@ -48,7 +46,7 @@ body {
   font-weight: 600;
   font-size: 3rem;
 }
-.header > img {
+.header > a {
   margin-left: auto;
   flex-shrink: 0;
   height: 70px;
@@ -99,9 +97,10 @@ button {
   border-color: #573229;
   cursor: pointer;
   margin-top: 20px;
+  border-width: 1px;
 }
 .block-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 100px;
@@ -124,7 +123,7 @@ button {
 
 .features-list > div > p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 .func-ul {
@@ -146,7 +145,7 @@ button {
   margin-bottom: 40px;
   width: 90%;
   padding-left: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .under {
   color: white;
@@ -157,12 +156,19 @@ button {
 .under > p:last-of-type {
   margin-bottom: 50px;
 }
+.documents > div {
+  width: initial;
+}
+.documents > div > img {
+  width: 400px;
+  height: 600px;
+}
 .img-list {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
 }
-.img-list > img {
+.img-list > a > img {
   height: 90px;
   width: auto;
 }
@@ -189,7 +195,7 @@ footer .block-title {
   margin-right: 20px;
 }
 .footer-content button {
-  padding: 11px 15px;
+  padding: 10px 15px;
 }
 .copy {
   margin-top: 100px;
